@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<!--This is version 2.0 6/28/16 bootstrap implementation-->
+<!--MarioSeattle 2016-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Mario Seattle 2016</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--Custom Styles 1.0-->
+      <link href="css/slider.css" rel="stylesheet">
+     <link href="css/contact.css" rel="stylesheet"> 
+     <link href="css/footer.css" rel="stylesheet">
+      
+     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+      
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <!-- Navbar fix 6/24-->
+  <header>
+      <div class="navbar navbar-default navbar-fixed-top" role="navegation">
+          <div class="container">
+          <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            <a href="" class="navbar-brand">Mario test</a>
+            </div>
+
+ <div class="navbar-collapse collapse" id="example">
+     <ul class="nav navbar-nav">
+         <li class="active"><a href="">Link 1</a></li>
+         <li><a href="">Link 2</a></li>
+         <li><a href="">Link 3</a></li>
+     </ul>
+
+ </div>
+</div>
+    </div>
+    <!--End of Nav -->
+
+  </header>
+
+
+  <!--slider begings -->
+  <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+      <!-- Overlay -->
+      <div class="overlay"></div>
+
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+          <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#bs-carousel" data-slide-to="1"></li>
+          <li data-target="#bs-carousel" data-slide-to="2"></li>
+          <li data-target="#bs-carousel" data-slide-to="3"></li>
+          <li data-target="#bs-carousel" data-slide-to="4"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+          <div class="item slides active">
+              <div class="slide-1"></div>
+              <div class="hero">
+                  <hgroup>
+                      <h1>We are creative</h1>
+                      <h3>Get start your next awesome project</h3>
+                  </hgroup>
+                  <button class="btn btn-hero btn-lg" role="button">See all features</button>
+              </div>
+          </div>
+          <div class="item slides">
+              <div class="slide-2"></div>
+              <div class="hero">
+                  <hgroup>
+                      <h1>We are smart</h1>
+                      <h3>Get start your next awesome project</h3>
+                  </hgroup>
+                  <button class="btn btn-hero btn-lg" role="button">See all features</button>
+              </div>
+          </div>
+          <div class="item slides">
+              <div class="slide-3"></div>
+              <div class="hero">
+                  <hgroup>
+                      <h1>We are amazing</h1>
+                      <h3>Get start your next awesome project</h3>
+                  </hgroup>
+                  <button class="btn btn-hero btn-lg" role="button">See all features</button>
+              </div>
+          </div>
+          <div class="item slides">
+              <div class="slide-4"></div>
+              <div class="hero">
+                  <hgroup>
+                      <h1>We are smart</h1>
+                      <h3>Get start your next awesome project</h3>
+                  </hgroup>
+                  <button class="btn btn-hero btn-lg" role="button">See all features</button>
+              </div>
+          </div>
+          <div class="item slides">
+              <div class="slide-5"></div>
+              <div class="hero">
+                  <hgroup>
+                      <h1>We are smart</h1>
+                      <h3>Get start your next awesome project</h3>
+                  </hgroup>
+                  <button class="btn btn-hero btn-lg" role="button">See all features</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!--slider ends-->
+
+  <!--Price table-->
+
+  <br/><br/><br/>
+
+  <!-- Plans -->
+  <section id="plans">
+      <div class="container">
+          <div class="row">
+
+              <!-- item -->
+              <div class="col-md-4 text-center">
+                  <div class="panel panel-danger panel-pricing">
+                      <div class="panel-heading">
+                          <i class="fa fa-desktop"></i>
+                          <h3>Plan 1</h3>
+                      </div>
+                      <div class="panel-body text-center">
+                          <p><strong>$100 / Month</strong></p>
+                      </div>
+                      <ul class="list-group text-center">
+                          <li class="list-group-item"><i class="fa fa-check"></i> Personal use</li>
+                          <li class="list-group-item"><i class="fa fa-check"></i> Unlimited projects</li>
+                          <li class="list-group-item"><i class="fa fa-check"></i> 27/7 support</li>
+                      </ul>
+                      <div class="panel-footer">
+                          <a class="btn btn-lg btn-block btn-danger" href="#">BUY NOW!</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- /item -->
+
+              <!-- item -->
+              <div class="col-md-4 text-center">
+                  <div class="panel panel-warning panel-pricing">
+                      <div class="panel-heading">
+                          <i class="fa fa-desktop"></i>
+                          <h3>Plan 2</h3>
+                      </div>
+                      <div class="panel-body text-center">
+                          <p><strong>$200 / Month</strong></p>
+                      </div>
+                      <ul class="list-group text-center">
+                          <li class="list-group-item"><i class="fa fa-check"></i> Personal use</li>
+                          <li class="list-group-item"><i class="fa fa-check"></i> Unlimited projects</li>
+                          <li class="list-group-item"><i class="fa fa-check"></i> 27/7 support</li>
+                      </ul>
+                      <div class="panel-footer">
+                          <a class="btn btn-lg btn-block btn-warning" href="#">BUY NOW!</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- /item -->
+
+              <!-- item -->
+              <div class="col-md-4 text-center">
+                  <div class="panel panel-success panel-pricing">
+                      <div class="panel-heading">
+                          <i class="fa fa-desktop"></i>
+                          <h3>Plan 3</h3>
+                      </div>
+                      <div class="panel-body text-center">
+                          <p><strong>$300 / Month</strong></p>
+                      </div>
+                      <ul class="list-group text-center">
+                          <li class="list-group-item"><i class="fa fa-check"></i> Personal use</li>
+                          <li class="list-group-item"><i class="fa fa-check"></i> Unlimited projects</li>
+                          <li class="list-group-item"><i class="fa fa-check"></i> 27/7 support</li>
+                      </ul>
+                      <div class="panel-footer">
+                          <a class="btn btn-lg btn-block btn-success" href="#">BUY NOW!</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- /item -->
+
+          </div>
+      </div>
+  </section>
+  <!-- /Plans -->
+
+  
+
+  <!--price table-->
+
+
+  <!--contact form start-->
+        
+<script src="http://momentjs.com/downloads/moment-with-locales.js"></script>
+<script src="http://momentjs.com/downloads/moment-timezone-with-data.js"></script>
+
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Signika+Negative:400,700' rel='stylesheet' type='text/css'>
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+<div class="container">
+<div class="col-md-6 col-md-offset-3">
+    <div class="form-area">  
+        <form role="form">
+        <br style="clear:both">
+                    <h3 style="margin-bottom: 25px; text-align: center;">Book My Appointment</h3>
+                     <div id="datepicker" class="calendar"></div>
+    				<div class="form-group">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" id="email" name="emailid" placeholder="Email" required>
+					</div>
+					<div class="form-group">
+						<input type="mobile" class="form-control" id="mobile" name="contact" placeholder="Mobile Number"
+                               required>
+					</div>
+
+                   <div class="form-group">
+        
+      
+            <select name="branch" class="form-control">
+        <option name="branch" value="">--select branch--</option>
+        <option name="branch"  value="option1">Madhapur</option>
+        <option name="branch"  value="option2" >Hitech city</option>
+    	<option name="branch"  value="option3">Gachibowli</option>
+            </select>
+       
+    </div>
+                    <div class="form-group">
+                    <textarea class="form-control" type="textarea" id="message" placeholder="Additional Services"
+                              maxlength="140" rows="3" name="additional_services"></textarea>
+                        <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p>
+                        </span>
+                    </div>
+            
+        <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+        </form>
+    </div>
+</div>
+</div>
+    <!--contact form end-->
+    
+      
+      
+      
+      
+       <!--footer begings here-->
+      <div class="container">
+<footer>
+    <div class="footer" id="footer">
+    
+    <div class="footer-bottom navbar navbar-fixed-bottom">
+        <div class="container">
+            <p class="pull-left"> Copyright © Footer E-commerce Plugin 2014. All right reserved. </p>
+           <!--<div class="pull-right">
+               <ul class="nav nav-pills payments">
+                	<li><i class="fa fa-cc-visa"></i></li>
+                    <li><i class="fa fa-cc-mastercard"></i></li>
+                    <li><i class="fa fa-cc-paypal"></i></li>
+                </ul>
+            </div>-->
+        </div>
+    </div>
+    <!--/.footer-bottom--> 
+    </div>
+</footer>
+          </div>
+      
+      <!--Footer ends here-->
+      
+      <!--End Social Media icons -->
+         
+        <!--bootsnipped ends here-->
+      
+<!-- Javascript================================= -->
+<script src="/js/bootstrap.min.js"></script>
+
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>   
+<script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/bootstrap-transition.js"></script>
+<script type="text/javascript" src="http://twitter.github.io/bootstrap/assets/js/bootstrap-collapse.js"></script>  
+    
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+
+</script>
+
+</body>
+</html>
+    
+
