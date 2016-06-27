@@ -1,20 +1,24 @@
-.jumbotron 
-{
-   /* background-image: url('../images/emp_medium.jpg');*/
-    background-color: #ffffff;
-    background-attachment: fixed;
-    min-height: 400px;
-    margin-top: 0px;
-    margin-bottom: 8px;
-    
-  h1{
-  font-family: 'open sans', sans-serif;
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    overflow-y:hidden;
+}
+#content {
+    float: right;
+    padding: 2%;
+    width: 71%;
 }
 
-p{
-  font-family: 'Inconsolata', sans-serif;
-  font-size: 15px;
-  font-weight: 700;
+#aside {
+    float: left;
+    padding: 2%;
+    width: 21%;
+    background-color: #eee;
 }
-    
+
+@media all and (max-width : 768px) {
+
+
 }
