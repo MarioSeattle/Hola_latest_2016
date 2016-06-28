@@ -1,19 +1,27 @@
 html {
     position: relative;
     min-height: 100%;
+    padding-top: 2em;
 }
 body {
     overflow-y:hidden;
 }
+
+#header {
+
+    padding-left: 6.75%;
+    padding-right: 6.75%;
+}
+
 #content {
     float: right;
-    padding: 2%;
+
     width: 71%;
 }
 
 #aside {
     float: left;
-    padding: 2%;
+   ;
     width: 21%;
     background-color: #eee;
 }
