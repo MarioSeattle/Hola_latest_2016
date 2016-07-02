@@ -1,4 +1,6 @@
 @import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+@import url(bootstrap.css);
+@import url(bootstrap-responsive.css);
 
 .panel-pricing {
   -moz-transition: all .3s ease;

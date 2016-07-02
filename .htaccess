@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^holaseattle.com$ [NC]
+RewriteRule ^(.*)$ http://www.holaseattle.com/$1 [R=301,L]
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ http://www.holaseattle.com/$1 [R=301,L]

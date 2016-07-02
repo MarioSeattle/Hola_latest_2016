@@ -1,3 +1,5 @@
+@import url(bootstrap.css);
+@import url(bootstrap-responsive.css);
 .feature{
     width: 100%;
     padding:50px 0 50px;

@@ -1,3 +1,6 @@
+@import url(bootstrap.css);
+@import url(bootstrap-responsive.css);
+
 html {
     position: relative;
     min-height: 100%;
