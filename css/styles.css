@@ -10,15 +10,45 @@ html {
     min-height: 100%;
     padding-top: 0.5em;
     overflow: auto;
+    height: auto;
+    max-width: 100%;
 }
 body {
-    overflow-y:hidden;
+    overflow-y:visible;
 }
 
 .container {
-    margin-top: 30px;
-    font-family: Taviraj;
-};
+    height: auto;
+    max-width: 100%;
+    font-size: 20px;
+
+}
+
+.facebook {
+
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+
+
+}
+
+
+
+.text h2 h3 {
+
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.text p {
+
+    font-size: 25px;
+    font-weight: 300;
+
+}
+
 
 /*Carousel CSS */
 
@@ -35,7 +65,7 @@ body {
     max-height: 340px;
 }
 .carousel-inner .item:after {
-    content: "";
+    content: auto;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     width: 100%;
@@ -67,7 +97,7 @@ body {
         font-size: 30px;
     }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px)  {
     .carousel-control .fa-chevron-left {
         margin-left: -15px;
     }
@@ -245,10 +275,8 @@ body {
 .section-header {
     text-align: center;
     margin: 0 auto;
-    padding-top: 50px;
     margin-bottom: 50px;
     font: small-caps 300 85px 'Lato', sans-serif;
-    letter-spacing: 3px;
     color: #ddd;
     margin-bottom: 25px;
 }
@@ -256,9 +284,11 @@ body {
 #contact {
     background-color: #222;
     overflow: hidden;
-    height: auto;
+    width: 100%;
     max-width:100%;
     height: auto;
+    padding-left: 2.5em;
+    padding-right:2.5em;
 
 }
 
@@ -382,6 +412,8 @@ CONTACT SECTION MEDIA QUERIES
 
 @media screen and (max-width: 760px) {
     #contact {
+        max-width: 100%;
+        height: auto;
 
     }
 
@@ -443,14 +475,7 @@ CONTACT SECTION MEDIA QUERIES
 
 
 
-
-
-
-
-
-
 .footer-bottom {
-    background: #E3E3E3;
     border-top: 1px solid #DDDDDD;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -459,5 +484,5 @@ CONTACT SECTION MEDIA QUERIES
     padding-top: 6px;
 }
 .payments {
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
