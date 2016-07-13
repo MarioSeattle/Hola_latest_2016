@@ -160,6 +160,7 @@ body {
     margin-right: auto;
     max-width:100%;
     height: auto;
+
 }
 /*logo CSS */
 
@@ -275,10 +276,8 @@ body {
 .section-header {
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 50px;
     font: small-caps 300 85px 'Lato', sans-serif;
     color: #ddd;
-    margin-bottom: 25px;
 }
 
 #contact {
@@ -330,9 +329,10 @@ body {
 **********************/
 
 .direct-contact-container {
-    max-width: 400px;
-    float: right;
+    max-width: 100%;
+    height: auto;
     margin-top: 5px;
+
 
 }
 
@@ -345,6 +345,7 @@ body {
 .list-item {
     line-height: 4;
     color: #aaa;
+    text-align: center;
 }
 
 .contact-text {

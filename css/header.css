@@ -5,6 +5,8 @@
  */
 .carousel-inner .item {
     max-height: 340px;
+    height:auto;
+
 }
 .carousel-inner .item:after {
     content: "";
