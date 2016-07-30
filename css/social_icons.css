@@ -119,7 +119,7 @@ body {
     display: inline-block;
     margin: -5px 5px;
     filter: grayscale(30%);
-    -webkit-filter: grayscale 30%);
+    -webkit-filter: grayscale(30%);
 
 }
 
@@ -192,7 +192,7 @@ CONTACT SECTION MEDIA QUERIES
     }
 
     .contact-text {
-        font-size: ;
+        /*font-size: ;*/
     }
 
     .copyright {
